@@ -8,7 +8,7 @@ export function MovieDetails() {
       <img
         className={`${styles.col} ${styles.movieImage}`}
         src={imageUrl}
-        alt={movie.title}
+        alt={movie.title} /* alt se usa para cuando no haya imagen, se muestre algo que no sea el icono de img rota */
       />
       <div className={`${styles.col} ${styles.movieDetails}`}>
         <p className={styles.firstItem}>

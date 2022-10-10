@@ -1,5 +1,5 @@
 .movieCard{
-    list-style: none;
+    list-style: none; /* Para que cuando se liste, no se usen vinetas en los items*/
     font-size: 1.5rem;
     text-align: center;
 }
@@ -13,6 +13,7 @@
     background-color: azure;
 }
 
+/* Esta media query es para que cuando el ancho sea 560px, se sobreescriba '.movieImage' */
 @media (max-width:560px) {
     .movieImage{
         width:100%;
